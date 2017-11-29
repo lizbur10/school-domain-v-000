@@ -107,3 +107,16 @@ Note that since hashes are unordered by nature, the order of the keys does not m
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/school-domain' title='Domain Model for a School'>Domain Model for a School</a> on Learn.co and start learning to code for free.</p>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/school-domain'>OO School Domain</a> on Learn.co and start learning to code for free.</p>
+
+class Dog
+  attr_accessor :name, :born_on
+
+  def initialize(name)
+    @name=name
+  end
+
+  def age
+    @born-on - Time.now
+  end
+
+end
